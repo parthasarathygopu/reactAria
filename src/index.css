@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@import "https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css";
+
+body > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input::-webkit-search-cancel-button,
+input::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
